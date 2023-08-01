@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.primary-button{
+    border-radius: 5px;
+    border: none;
+    background: #fc6f0a;
+    color: var(--white-color, #FFF);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+.primary-button-whtte{
+    border-radius: 5px;
+    border: 1px solid #fc6f0a;
+    background: #ffffff;
+    color: var(--white-color, #fc6f0a);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+
+}
+
+section{
+    margin: 0px 270px;
+}
+/* Header Css */
+.main-head{
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: right bottom, left center;
+}
+/* Nav Manu Css */
+.logo-text{
+    color: var(--dark-01, #181818);
+    font-size: 45px;
+    font-weight: 800;
+}
+.red-color{
+    color: #FD6E0A;
+    font-size: 45px;
+    font-weight: 800;
+}
+.nav-item{
+    margin: 0px 225px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    padding: 0px 20px;
+    color: var(--dark-02, #474747);
+    font-size: 20px;
+    font-weight: 400;
+}
+/* Hero Section Css */
+.hero{
+    display: flex;
+    align-items: center;
+    margin: 0px 225px;
+}
+.hero h3{
+    color: var(--dark-02, #474747);
+    font-size: 45px;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+.hero h1{
+    color: var(--dark-01, #181818);
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 85px;
+    font-weight: 700;
+    padding: 10px 0px;
+}
+.hero p{
+    color: var(--dark-03, #757575);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    padding-bottom: 30px;
+}
+.hero-image{
+    position: right bottom;
+}
+.hero button{
+    display: flex;
+    margin-top: 10px;
+}
+
+
+
+/* About Me Section */
+.about-me{
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 80px;
+}
+.sec-title{
+    color: var(--dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.sec-decp{
+    color: var(--dark-03, #757575);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin: 20px 0px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    text-align: center;
+}
+/* What I do Section Css */
+.card{
+    display: flex;
+    justify-content: space-between;
+}
+.wid{
+    margin-top: 100px;
+}
+.card h4{
+    margin-top: 15px;
+}
+.card-view{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin: 0px 10px;
+    padding: 30px;
+}
+.card-decp{
+    color: var(--dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; /* 166.667% */
+    margin: 20px 0px;
+}
+/* Resume Section Css */
+.resume{
+    margin-top: 100px;
+}
+.res-title{
+    color: var(--dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 100px;
+
+}
+.re{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+.edu{
+    padding: 20px;
+}
+.exp{
+    padding: 20px;
+}
+.l-btn{
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    display: flex;
+}
+/* Fotor Section */
+.contact{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    background: var(--white-color, #FFF);
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.name-f{
+    border-radius: 5px;
+    background: var(--white-color, #FFF);
+    margin-bottom: 10px;
+    border: none;
+    padding: 10px;
+}
+.exter-margin{
+    margin-bottom: 20px;
+}
+.textareat{
+    border-radius: 5px;
+    background: var(--white-color, #FFF);
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.con{
+    padding-right: 100px;
+}
+.social-media ul {
+    display: flex;
+    margin: 10px;
+}
